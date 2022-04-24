@@ -40,6 +40,7 @@ nav{
 
 .logo{
     margin-bottom: 3em;
+    transition: 2s;
 }
 
 input, input[type=checkbox] + label, input[type=color] ~ label{

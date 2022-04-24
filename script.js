@@ -27,7 +27,11 @@ function updateDiv(){
     }));
 }
 
-
+function updateLogoColor(){
+    if(rgbToggle.checked){
+        logo.style.fill = `rgb(${random(255)},${random(255)},${random(255)})`;
+    }
+}
 
 
 function updateUI(){
@@ -52,6 +56,8 @@ function updateUI(){
     }else{
         theme.color = "#313131";
     }    
+
+    updateLogoColor();
     
 }    
 
@@ -162,6 +168,7 @@ slider.addEventListener('input', updateGird);
 color.addEventListener('input', changeColor);
 main.addEventListener('mouseenter', updateDiv);
 borderToggle.addEventListener("change", toggleBorder);
+logo.addEventListener('transitionend', updateLogoColor);
 toggleButtons.forEach(e => {e.addEventListener("change", updateUI)});
 inputButtons.forEach(e => {e.addEventListener("mouseenter", btnHoverIn)});
 inputButtons.forEach(e => {e.addEventListener("mouseout", btnHoverOut)});
