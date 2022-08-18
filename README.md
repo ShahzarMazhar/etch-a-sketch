@@ -1,5 +1,5 @@
 # Etch-a-Sketch
-Another project by [TheOdinProject](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) to flex the DOM manipulation skills.
+Another project [Etch-a-Sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) from [TheOdinProject](https://www.theodinproject.com) to flex the DOM manipulation skills.
 
 ## Learning Outcome Summary
 There is nothing new in this project but a good practice of what I learned in previous projects
